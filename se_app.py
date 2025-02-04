@@ -49,6 +49,3 @@ if api_key.startswith("gsk"): # if api_key:
             response=search_agent.run(st.session_state.messages,callbacks=[st_cb])
             st.session_state.messages.append({'role':'assistant',"content":response})
             st.write(response)
-
-
-# Groq api key = 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
